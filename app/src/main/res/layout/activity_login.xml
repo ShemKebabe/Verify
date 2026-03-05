@@ -8,8 +8,9 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
+    android:id="@+id/main"
     android:background="@drawable/verifyloginpage"
-    tools:context=".MainActivity">
+    tools:context=".authentication">
 
 
     <!--Title-->
@@ -24,7 +25,7 @@
         android:textSize="25sp"
         android:textStyle="bold"
         android:layout_marginTop="170dp"
-        android:textColor="@color/white"
+        android:textColor="@color/white"/>
 
 
     <EditText
@@ -44,8 +45,8 @@
     <EditText
         android:layout_width="380dp"
         android:layout_height="50dp"
-        android:id="@+id/username"
-        android:drawableLeft="@drawable/outline_lock_24"
+        android:id="@+id/password_"
+
         android:drawablePadding="8dp"
         android:hint="Password"
         android:padding="8dp"

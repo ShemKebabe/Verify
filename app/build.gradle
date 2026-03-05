@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace 'com.example.verify'
-    compileSdk 36
+    compileSdk 24
 
     defaultConfig {
         applicationId "com.example.verify"
