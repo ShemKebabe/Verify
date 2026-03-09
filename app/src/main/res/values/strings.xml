@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Verify</string>
+    <string name="app_login">Verify Login</string>
+    <string name="forgot_password">Forgot Password</string>
 </resources>
